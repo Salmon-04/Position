@@ -1,0 +1,52 @@
+.composition{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background:  url('img/bg.jpg');
+    margin: 30px;
+}
+
+.rasm{
+   position: absolute; 
+}
+
+.rasm.asteroid{
+    top: 80px;
+    left: 430px;
+    z-index: 1;
+}
+
+.rasm.planet-1{
+    top: 20px;
+    left: 180px;
+    z-index: 2;
+}
+
+.rasm.planet-2{
+    top: 70px;
+    left: 53px;
+    z-index: 3;
+}
+
+.rasm.planet-3{
+    top: 140px;
+    left: 150px;
+    z-index: 5;
+}
+
+.rasm.raketa{
+    top: 160px;
+    left: 145px;
+    z-index: 4;
+}
+
+.rasm.tarelka{
+    top: 300px;
+    left: 130px;
+    z-index: 6;
+}
+
+.rasm.superman{
+    top: 329px;
+    left: 490px;
+}
